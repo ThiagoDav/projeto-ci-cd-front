@@ -23,9 +23,9 @@ jobs:
 
       - name: Deploy na Vercel (Production)
         env:
-          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
-          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+          VERCEL_TOKEN: ${{ kVWIlZ5k6Iougsop9j9lReXK}}
+          VERCEL_ORG_ID: ${{team_hydH9kcwUNHlThWZUg7XTx9J}}
+          VERCEL_PROJECT_ID: ${{prj_z3c5PXsU94fESF2pbkRlJEMebrQC}}
         run: |
           vercel pull --yes --environment=production --token=$VERCEL_TOKEN
           vercel build --prod --token=$VERCEL_TOKEN
