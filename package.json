@@ -1,0 +1,42 @@
+{
+  "name": "projeto-ci-cd-front",
+  "version": "1.0.0",
+  "description": "Frontend do projeto CI/CD com deploy automatizado na Vercel",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "npx serve src",
+    "dev": "npx serve src -l 3000"
+  },
+  "keywords": [
+    "cicd",
+    "vercel",
+    "github-actions"
+  ],
+  "author": "Seu Nome",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
+```
+
+---
+
+## 🚫 **Arquivo 6: .gitignore**
+```
+node_modules/
+package-lock.json
+.vercel
+.env
+.env.local
+.env.production
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
