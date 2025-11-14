@@ -59,29 +59,6 @@ npm run dev
 Acesse: http://localhost:3000
 
 
-## 🧪 Testando a Integração
-
-1. Acesse o frontend na Vercel
-2. Clique no botão "Chamar API"
-3. Verifique se a resposta do backend é exibida corretamente
-
-## ⚠️ Troubleshooting
-
-### Erro de CORS
-
-Se aparecer erro de CORS, verifique se o backend tem as configurações corretas:
-```javascript
-// No backend (Node.js/Express)
-const cors = require('cors');
-app.use(cors({
-  origin: 'https://seu-projeto.vercel.app'
-}));
-
-### URL da API Incorreta
-
-- Atualize a constante `API_URL` no arquivo `src/script.js`
-- Faça commit e crie nova tag para deploy
-
 ## 📚 Recursos Adicionais
 
 - [Documentação GitHub Actions](https://docs.github.com/en/actions)
