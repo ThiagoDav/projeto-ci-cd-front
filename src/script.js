@@ -1,5 +1,5 @@
 // URL do backend no Render - SUBSTITUA pela URL do seu backend
-const API_URL = '';
+const API_URL = 'https://projeto-ci-cd-back-95ov.onrender.com';
 
 // Elementos do DOM
 const btnChamar = document.getElementById('btnChamar');

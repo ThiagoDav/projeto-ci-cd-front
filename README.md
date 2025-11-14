@@ -1,17 +1,17 @@
-# 🚀 Projeto CI/CD - Frontend
+# Projeto CI/CD - Frontend
 
-## 📋 Objetivo
+## Objetivo
 
 Demonstrar integração entre GitHub, Vercel e Render com deploy automatizado via GitHub Actions. Este projeto implementa um frontend simples que consome uma API backend, ambos com pipelines de CI/CD configurados.
 
-## 🏗️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **Frontend**: HTML, CSS, JavaScript
 - **Hospedagem**: Vercel
 - **CI/CD**: GitHub Actions
 - **Versionamento**: Git com SemVer (Semantic Versioning)
 
-## 🌐 URLs do Projeto
+## URLs do Projeto
 
 - **Frontend**: https://projeto-front.vercel.app
 - **Backend**: https://projeto-back.onrender.com
@@ -33,7 +33,7 @@ projeto-ci-cd-front/
 └── README.md
 ```
 
-## 🔧 Configuração Inicial
+## Configuração Inicial
 
 ### 1. Clone o Repositório
 ```bash
@@ -60,19 +60,7 @@ npm run dev
 
 Acesse: http://localhost:3000
 
-## 🚀 Deploy na Vercel
 
-### Configuração Manual (Primeira vez)
-
-1. Acesse [vercel.com](https://vercel.com) e faça login
-2. Clique em "Add New Project"
-3. Importe o repositório do GitHub
-4. Configure o projeto:
-   - **Framework Preset**: Other
-   - **Root Directory**: `./src`
-   - **Build Command**: (deixe vazio)
-   - **Output Directory**: (deixe vazio)
-5. Clique em "Deploy"
 
 ### Obter Tokens para CI/CD
 
